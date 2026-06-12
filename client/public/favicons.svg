@@ -1,0 +1,33 @@
+<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- PURPLE BOX (UNCHANGED) -->
+  <rect width="44" height="44" rx="12" fill="url(#grad)"/>
+
+  <!-- GLOSS -->
+  <rect width="44" height="20" rx="12" fill="url(#gloss)"/>
+
+  <!-- CENTERED CROSS -->
+  <g>
+    <!-- Vertical -->
+    <rect x="20" y="10" width="4" height="24" rx="2" fill="white"/>
+    
+    <!-- Horizontal -->
+    <rect x="12" y="18" width="20" height="4" rx="2" fill="white"/>
+  </g>
+
+  <!-- DEFINITIONS -->
+  <defs>
+    <!-- PURE PURPLE -->
+    <linearGradient id="grad" x1="0" y1="0" x2="44" y2="44">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- GLOSS -->
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="20">
+      <stop stop-color="white" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

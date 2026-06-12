@@ -1,0 +1,45 @@
+<svg width="190" height="45" viewBox="0 0 190 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- PURPLE BOX -->
+  <rect y="0.373047" width="44.8326" height="44.8326" rx="12" fill="url(#boxGradient)"/>
+  <rect y="0.373047" width="44.8326" height="20" rx="12" fill="url(#gloss)"/>
+
+  <!-- BIBLE ICON -->
+  <g transform="translate(7,7)">
+    <rect x="7.5" y="4" width="22" height="28" rx="4" fill="white"/>
+    <rect x="7.5" y="4" width="4" height="28" rx="2" fill="#E9D5FF"/>
+    <rect x="17.5" y="11" width="2.4" height="12" rx="1" fill="#7C3AED"/>
+    <rect x="15" y="15" width="7.5" height="2.4" rx="1" fill="#7C3AED"/>
+  </g>
+
+  <!-- TITLE -->
+  <text x="58" y="19.5" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#111827">
+    Te Tuvalu GPT
+  </text>
+
+  <!-- TAGLINE -->
+  <text x="58" y="34" font-family="Inter, sans-serif" font-size="11" fill="url(#tagGrad)">
+    AI Translation Platform
+  </text>
+
+  <defs>
+    <!-- PURE PURPLE GRADIENT -->
+    <linearGradient id="boxGradient" x1="0" y1="0" x2="45" y2="45">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- GLOSS -->
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="20">
+      <stop stop-color="white" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- TAGLINE PURPLE -->
+    <linearGradient id="tagGrad" x1="0" y1="0" x2="120" y2="0">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+
+</svg>
